@@ -3,7 +3,7 @@ import streamlit as st
 
 class ATM:
     def __init__(self):
-        self.balance = 100000
+        self.balance = 0
         self.history = []
 
     def deposit(self, amount):
